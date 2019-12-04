@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+      box-sizing: border-box;
+    }
+.main {
+	display: flex;
+	height: 60%;
+}
+.footer {
+   background-color: #3742fa;
+   text-align: center;
+   height: 20%;
+   justify-content: space-around;
+}
+
+.header {
+   background-color: #3742fa;
+   height: 20%;
+}
+
+.sidebar {
+	background-color: #1e90ff;
+	flex-direction: row;
+	flex-grow: 1;
+}
+
+.main_content {
+   background-color: #70a1ff;
+   flex-grow: 1;
+}
